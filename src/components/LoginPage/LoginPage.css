@@ -1,0 +1,122 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #001f3f; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .login-content {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .login-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.25);
+  }
+  
+  .login-content h1 {
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  .login-content input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) inset;
+  }
+  
+  .login-content input:focus {
+    border-color: #2196F3;
+    outline: none;
+    box-shadow: 0 0 8px rgba(33, 150, 243, 0.5);
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .remember-me input {
+    margin-right: 5px;
+  }
+  
+  .forgot-password {
+    background: none;
+    border: none;
+    color: #2196F3;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password:hover {
+    color: #1976D2;
+  }
+  
+  .login-button {
+    background-color: #2196F3;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: #1976D2;
+    transform: translateY(-3px);
+  }
+  
+  .login-content p {
+    margin-top: 20px;
+    color: #777777;
+    font-size: 14px;
+  }
+  
+  .create-account {
+    background: none;
+    border: none;
+    color: #2196F3;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .create-account:hover {
+    color: #1976D2;
+  }
+  

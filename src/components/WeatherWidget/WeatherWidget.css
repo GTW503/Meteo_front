@@ -1,0 +1,83 @@
+.weather-widget {
+    background: linear-gradient(to bottom, #6cb3f3, #a6e0ff);
+    border-radius: 20px;
+    color: rgb(79, 80, 9);
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 12px rgba(77, 16, 16, 0.15);
+    width: 1000px;
+  }
+  
+  .weather-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .weather-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .weather-header h1 {
+    font-size: 54px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .weather-header p {
+    font-size: 28px;
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .weather-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .weather-button {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(97, 10, 10);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .weather-button:hover {
+    background-color: rgba(43, 5, 5, 0.5);
+  }
+  
+  .weather-body .hourly-forecast, .weather-body .hourly-temps {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .weather-body .sun-details, .weather-body .additional-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(36, 5, 5, 0.3);
+    padding-top: 15px;
+  }
+  
+  .weather-body .sun-details div, .weather-body .additional-info div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .weather-body i {
+    color: #fcd706; 
+    font-size: 100px; 
+    margin-right: 10px;
+  }
+  
